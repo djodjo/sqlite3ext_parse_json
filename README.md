@@ -1,7 +1,8 @@
-parse_json()
+SQLite3 Extension Function parse_json()
 =====================
 ##About
 This is a extension of SQLite3 function.
+ex. select parse_json(col1,'user.name') from employee;
 
 ##Features
 * Following Parson (A lighweight json parser. ://github.com/kgabis/parson/)
